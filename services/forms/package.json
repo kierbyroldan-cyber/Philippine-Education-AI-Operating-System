@@ -1,0 +1,8 @@
+{
+  "name": "forms-service",
+  "version": "1.0.0",
+  "main": "sf2_service.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

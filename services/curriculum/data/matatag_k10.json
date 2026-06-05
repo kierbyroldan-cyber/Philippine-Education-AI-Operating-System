@@ -1,0 +1,28 @@
+[
+  {
+    "grade": 4,
+    "subject": "Mathematics",
+    "quarter": 1,
+    "melcs": [
+      {
+        "code": "M4NS-Ia-1",
+        "competency": "visualizes numbers up to 100 000 with emphasis on numbers 10 001 to 100 000."
+      },
+      {
+        "code": "M4NS-Ia-2",
+        "competency": "gives the place value and value of a digit in numbers up to 100 000."
+      }
+    ]
+  },
+  {
+    "grade": 7,
+    "subject": "Science",
+    "quarter": 1,
+    "melcs": [
+      {
+        "code": "S7MT-Ia-1",
+        "competency": "describe the components of a scientific investigation."
+      }
+    ]
+  }
+]
