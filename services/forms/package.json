@@ -4,5 +4,9 @@
   "main": "sf2_service.js",
   "scripts": {
     "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }

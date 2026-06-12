@@ -1,0 +1,28 @@
+[
+  {
+    "program": "BS Information Technology",
+    "course": "IT101 - Introduction to Computing",
+    "programOutcomes": [
+      {
+        "code": "PO1",
+        "description": "Apply knowledge of computing, science, and mathematics appropriate to the discipline."
+      },
+      {
+        "code": "PO2",
+        "description": "Analyze a complex computing problem and to apply principles of computing and other relevant disciplines to identify solutions."
+      }
+    ],
+    "courseOutcomes": [
+      {
+        "code": "CO1",
+        "description": "Identify the different components of a computer system.",
+        "alignment": ["PO1"]
+      },
+      {
+        "code": "CO2",
+        "description": "Explain the history and evolution of computing.",
+        "alignment": ["PO1"]
+      }
+    ]
+  }
+]

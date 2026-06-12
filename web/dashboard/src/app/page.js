@@ -2,6 +2,8 @@
 
 import LessonPlanner from '../components/LessonPlanner';
 import AttendanceTracker from '../components/AttendanceTracker';
+import AssessmentGenerator from '../components/AssessmentGenerator';
+import OBEMapper from '../components/OBEMapper';
 
 export default function Home() {
   return (
@@ -14,9 +16,11 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <section>
           <LessonPlanner />
+          <AssessmentGenerator />
         </section>
         <section>
           <AttendanceTracker />
+          <OBEMapper />
         </section>
       </div>
 
