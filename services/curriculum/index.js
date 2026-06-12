@@ -1,8 +1,23 @@
 const express = require('express');
 const app = express();
 const curriculumData = require('./data/matatag_k10.json');
+const chedData = require('./data/ched_obe.json');
 
 app.use(express.json());
+
+app.get('/api/curriculum/ched', (req, res) => {
+  const { program, course } = req.query;
+  let filtered = chedData;
+
+  if (program) {
+    filtered = filtered.filter(item => item.program.toLowerCase() === program.toLowerCase());
+  }
+  if (course) {
+    filtered = filtered.filter(item => item.course.toLowerCase() === course.toLowerCase());
+  }
+
+  res.json(filtered);
+});
 
 app.get('/api/curriculum', (req, res) => {
   const { grade, subject } = req.query;
